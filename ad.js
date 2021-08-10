@@ -12,6 +12,7 @@
 
 */
 
+
 function FindProxyForURL(url, host){
 
     /********************************************
@@ -26,6 +27,7 @@ function FindProxyForURL(url, host){
 
     var mode = 0;
 
+     
     //【以下http代理设置仅在 “mode = 1” 时有效】
     var domain = "127.0.0.1";
     var port = "8080";
